@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <section class="contato-container">
+      <h1>Contato</h1>
+
+      <form id="form">
+        <div class="campo">
+          <label for="email-input">Email:</label>
+          <br />
+          <br />
+          <input type="email" id="email-input" name="email" required />
+        </div>
+        <br />
+        <div class="campo">
+          <label for="text-input">Mensagem:</label>
+          <br />
+          <textarea
+            id="text-input"
+            name="mensagem"
+            rows="6"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <br />
+
+      <div class="feedback"></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
