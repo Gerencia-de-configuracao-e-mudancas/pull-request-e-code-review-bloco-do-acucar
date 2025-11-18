@@ -21,3 +21,42 @@ header{
     text-decoration: underline;
     font-size: 1.15rem;
 }
+.container{
+    display: grid;
+    height: 80vh;
+    width: auto;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+        "noticia1 noticia2"
+        "noticia1 noticia3";
+    padding: 30px;
+    margin: 0;
+}
+.noticia1{
+    grid-area: noticia1;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+}
+.noticia2{
+    grid-area: noticia2;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+}
+.noticia3{
+    grid-area: noticia3;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+}
+.imgP{
+    width: 200px;
+    height: auto;
+}
+.imgG{
+    width: 50%;
+    height: auto;
+}
