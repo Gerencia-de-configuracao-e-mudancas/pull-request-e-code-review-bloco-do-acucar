@@ -1,0 +1,20 @@
+.feedback-text{
+    color: green;
+}
+.contato-container{
+    display: inline-block;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.container-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
