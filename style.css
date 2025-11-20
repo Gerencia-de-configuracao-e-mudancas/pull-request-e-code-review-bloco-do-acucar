@@ -31,7 +31,8 @@ header{
     gap: 10px;
     grid-template-areas: 
         "noticia1 noticia2"
-        "noticia1 noticia3";
+        "noticia1 noticia3"
+        "noticia1 noticia4";
     padding: 30px;
     margin: 0;
 }
@@ -164,4 +165,36 @@ header{
 
 .noticia1:hover img{
     transform: scale(1.05);
+}
+
+.noticia4{
+    grid-area: noticia4;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.9fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+        "img texto4";
+}
+.noticia4 img{
+    height: 80%;
+    width: auto;
+    grid-area: img;
+    border-radius: 10px;
+}
+.texto4{
+    grid-area: texto4;
+    color: #333;
+    font-size: 1.5rem;
+}
+.texto4 a{
+    text-decoration: none;
+    color: #042544;
+}
+.texto4 a:hover{
+    color: #547fa7;
 }
